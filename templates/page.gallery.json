@@ -53,6 +53,38 @@
             "description": "",
             "image": "shopify:\/\/shop_images\/PXL_20240327_184558047.jpg"
           }
+        },
+        "image_MXr9Mr": {
+          "type": "image",
+          "settings": {
+            "name": "Image6",
+            "description": "",
+            "image": "shopify:\/\/shop_images\/logo.png"
+          }
+        },
+        "image_m3WfYK": {
+          "type": "image",
+          "settings": {
+            "name": "Image7",
+            "description": "",
+            "image": "shopify:\/\/shop_images\/PXL_20240327_185253987.PORTRAIT.jpg"
+          }
+        },
+        "image_zQba7E": {
+          "type": "image",
+          "settings": {
+            "name": "Image8",
+            "description": "",
+            "image": "shopify:\/\/shop_images\/basics_whip-measurements.png"
+          }
+        },
+        "image_VRADEB": {
+          "type": "image",
+          "settings": {
+            "name": "Image9",
+            "description": "",
+            "image": "shopify:\/\/shop_images\/PXL_20240327_184729894_c22befde-5633-4ff8-a9a4-1b82f2cf9599.jpg"
+          }
         }
       },
       "block_order": [
@@ -60,7 +92,11 @@
         "image_Xi64GM",
         "image_68fyCT",
         "image_zKdbDT",
-        "image_Qy7YLA"
+        "image_Qy7YLA",
+        "image_MXr9Mr",
+        "image_m3WfYK",
+        "image_zQba7E",
+        "image_VRADEB"
       ],
       "settings": {
         "headline": "Masonry"

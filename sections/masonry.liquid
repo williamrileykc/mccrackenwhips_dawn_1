@@ -1,11 +1,17 @@
 {% style %}
-  .grid-item { width: 200px; }
-  .grid-item--width2 { width: 400px; }
+  .grid-sizer,
+  .grid-item { width: 20%; }
+  .grid-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 {% endstyle %}
 
 <div class="page-width masonry">
   <h2 class="h1">{{  section.settings.headline }}</h2>
   <div class="grid">
+    <div class="grid-sizer"></div>
     {% for block in section.blocks %}
       <div class="grid-item">
         {%- if block.settings.image -%}
@@ -74,6 +80,8 @@
   var msnry = new Masonry( elem, {
     // options
     itemSelector: '.grid-item',
-    columnWidth: 200
+    // use element for option
+    columnWidth: '.grid-sizer',
+    percentPosition: true
   });
 </script>
