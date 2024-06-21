@@ -32,11 +32,17 @@ h1 {
   border-radius: 4px;
   height: auto;
   width: 100%;
+  justify-content: center;
   transition: transform 0.2s ease;
 }
 
 .gallery .images .img:hover img {
   transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+.gallery .images .img_desc {
+  /* display: none; */
 }
 
 /* Image lightbox styling */
@@ -95,6 +101,7 @@ header .buttons i {
   margin-left: 10px;
   background: #6C757D;
   font-size: 1.25rem;
+  font-style: normal;
   line-height: 40px;
   text-align: center;
   transition: 0.2s ease;
@@ -102,6 +109,14 @@ header .buttons i {
 header .buttons i:hover {
   background: #5f666d;
 }
+
+header .close-icon::before {
+  content: '\2715';
+  display: block;
+  font-style: normal;
+  font-weight: bold;;
+}
+
 .wrapper .preview-img {
   display: flex;
   justify-content: center;

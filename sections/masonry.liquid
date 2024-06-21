@@ -1,7 +1,7 @@
 {{ 'section-masonry.css' | asset_url | stylesheet_tag }}
 {%- style -%}
   .gallery .images .img {
-    border-radius: {{ section.settings.border_radius }}
+    border-radius: {{ section.settings.border_radius }}px;
   }
 {%- endstyle -%}
 
@@ -10,7 +10,7 @@
     <header>
       <div class="details">
         <i class="uil uil-camera"></i>
-        <span>Image Preview</span>
+        <span class="preview_desc"></span>
       </div>
       <div class="buttons"><i class="close-icon uil uil-times"></i></div>
     </header>
@@ -35,6 +35,7 @@
               | image_url: width: 700
               | image_tag: class: 'masonry__image grid-image'
             }}
+            <div class="img__desc">{{ block.settings.description }}</div>
           {%- endif -%}
         </li>
       {% endfor %}
@@ -43,7 +44,6 @@
   </section>
 </div>
 
-<script src="{{ 'masonry.pkgd.min.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'masonry.js' | asset_url }}" defer="defer"></script>
 
 {% schema %}
@@ -101,14 +101,3 @@
   ]
 }
 {% endschema %}
-
-<script type="text/javascript">
-  var elem = document.querySelector('.grid');
-  var msnry = new Masonry( elem, {
-    // options
-    itemSelector: '.grid-item',
-    // use element for option
-    columnWidth: '.grid-sizer',
-    percentPosition: true
-  });
-</script>

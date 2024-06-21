@@ -18,7 +18,7 @@
           "type": "image",
           "settings": {
             "name": "Image",
-            "description": "",
+            "description": "Test Text",
             "image": "shopify:\/\/shop_images\/PXL_20240327_185307179.PORTRAIT.jpg"
           }
         },
@@ -99,7 +99,8 @@
         "image_VRADEB"
       ],
       "settings": {
-        "headline": "Masonry"
+        "headline": "Masonry",
+        "border_radius": 4
       }
     }
   },

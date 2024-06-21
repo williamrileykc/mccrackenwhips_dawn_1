@@ -4,12 +4,15 @@ const closeImgBtn = lightbox.querySelector(".close-icon");
 
 allImages.forEach(img => {
     // Calling showLightBox function with passing clicked img src as argument
-    img.addEventListener("click", () => showLightbox(img.querySelector("img").src));
+    img.addEventListener("click", () => showLightbox(img));
 });
 
 const showLightbox = (img) => {
+    let src = img.querySelector("img").src;
+    let desc = img.querySelector(".img__desc").innerHTML;    console.log(desc);
     // Showing lightbox and updating img source
-    lightbox.querySelector("img").src = img;
+    lightbox.querySelector("img").src = src;
+    lightbox.querySelector(".preview_desc").innerHTML = desc
     lightbox.classList.add("show");
     document.body.style.overflow = "hidden";
 }
