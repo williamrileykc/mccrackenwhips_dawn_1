@@ -1,0 +1,74 @@
+{
+  "sections": {
+    "page_eGzqx8": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "page": "gallery",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "masonry_QFLUQ7": {
+      "type": "masonry",
+      "blocks": {
+        "image_NFQmxY": {
+          "type": "image",
+          "settings": {
+            "name": "Image",
+            "description": "",
+            "image": "shopify:\/\/shop_images\/PXL_20240327_185307179.PORTRAIT.jpg"
+          }
+        },
+        "image_Xi64GM": {
+          "type": "image",
+          "settings": {
+            "name": "Image 2",
+            "description": "",
+            "image": "shopify:\/\/shop_images\/PXL_20240327_185111595.PORTRAIT_6500a6d0-12da-4cbb-8112-0adee165a509.jpg"
+          }
+        },
+        "image_68fyCT": {
+          "type": "image",
+          "settings": {
+            "name": "Image 3",
+            "description": "",
+            "image": "shopify:\/\/shop_images\/PXL_20240327_184754072.jpg"
+          }
+        },
+        "image_zKdbDT": {
+          "type": "image",
+          "settings": {
+            "name": "Image 4",
+            "description": "",
+            "image": "shopify:\/\/shop_images\/PXL_20240327_184729894.jpg"
+          }
+        },
+        "image_Qy7YLA": {
+          "type": "image",
+          "settings": {
+            "name": "Image 5",
+            "description": "",
+            "image": "shopify:\/\/shop_images\/PXL_20240327_184558047.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_NFQmxY",
+        "image_Xi64GM",
+        "image_68fyCT",
+        "image_zKdbDT",
+        "image_Qy7YLA"
+      ],
+      "settings": {
+        "headline": "Masonry"
+      }
+    }
+  },
+  "order": [
+    "page_eGzqx8",
+    "masonry_QFLUQ7"
+  ]
+}

@@ -1,0 +1,88 @@
+{{ 'section-price-list.css' | asset_url | stylesheet_tag }}
+
+<section class="page-width price-list {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+  <div class="price-list__head">
+    <h2>{{ section.settings.headline }}</h2>
+    {% if section.settings.subheadline %}
+    <div class="price-list__subheadline">
+      {{ section.settings.subheadline }}
+    </div>
+    {% endif %}
+  </div>
+  {% for block in section.blocks %}
+    <div class="price-list__line">
+      <h3 class="price-list__line__title">{{ block.settings.name }} 
+        {% if block.settings.name_note %}
+          <span class="price-list__line__title__note">{{ block.settings.name_note }}</span>
+        {% endif %}
+      </h3>
+      <h3 class="price-list__line__price">{{ block.settings.price }}</h3>
+      {% if block.settings.description %}
+      <div class="price-list__line__description">
+        {{ block.settings.description }}
+      </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</section>
+
+{% schema %}
+{
+  "name": "Price List",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "label": "Headline",
+      "id": "headline"
+    },
+    {
+      "type": "inline_richtext",
+      "label": "Subheadline",
+      "id": "subheadline"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "product",
+      "type": "product",
+      "settings": [
+        {
+          "type": "text",
+          "label": "Name",
+          "id": "name"
+        },
+        {
+          "type": "text",
+          "label": "Name Note",
+          "id": "name_note"
+        },        
+        {
+          "type": "text",
+          "label": "Price",
+          "id": "price"
+        },
+        {
+          "type": "inline_richtext",
+          "label": "Description",
+          "id": "description"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Price List",
+      "blocks": [
+        {
+          "type": "product"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

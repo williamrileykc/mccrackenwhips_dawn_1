@@ -1,0 +1,192 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "price_list_Rdm7CH": {
+      "type": "price-list",
+      "blocks": {
+        "product_garMW6": {
+          "type": "product",
+          "settings": {
+            "name": "8'",
+            "name_note": "(8\" or 10\" handle)",
+            "price": "$225.00",
+            "description": ""
+          }
+        },
+        "product_WEeqMR": {
+          "type": "product",
+          "settings": {
+            "name": "7'",
+            "name_note": "(8\" or 10\" handle)",
+            "price": "$200.00",
+            "description": ""
+          }
+        },
+        "product_4xMzgD": {
+          "type": "product",
+          "settings": {
+            "name": "6'",
+            "name_note": "(8\" or 10\" handle)",
+            "price": "$175.00",
+            "description": ""
+          }
+        },
+        "product_ntfYaY": {
+          "type": "product",
+          "settings": {
+            "name": "5'",
+            "name_note": "(6\" or 8\" handle)",
+            "price": "$150.00",
+            "description": ""
+          }
+        },
+        "product_qNB3nx": {
+          "type": "product",
+          "settings": {
+            "name": "4'",
+            "name_note": "(6\" or 8\" handle)",
+            "price": "$125.00",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_garMW6",
+        "product_WEeqMR",
+        "product_4xMzgD",
+        "product_ntfYaY",
+        "product_qNB3nx"
+      ],
+      "settings": {
+        "headline": "Bullwhips",
+        "subheadline": "Available in many different color combinations and can be made with a traditional fall hitch or an English Eye. Handle lengths are the recommended sizes but can be customized."
+      }
+    },
+    "price_list_KnYaQH": {
+      "type": "price-list",
+      "blocks": {
+        "product_YVaycL": {
+          "type": "product",
+          "settings": {
+            "name": "6'",
+            "name_note": "",
+            "price": "$175.00",
+            "description": ""
+          }
+        },
+        "product_49fwXW": {
+          "type": "product",
+          "settings": {
+            "name": "5'",
+            "name_note": "",
+            "price": "$150.00",
+            "description": ""
+          }
+        },
+        "product_TKiaxi": {
+          "type": "product",
+          "settings": {
+            "name": "4'",
+            "name_note": "",
+            "price": "$125.00",
+            "description": ""
+          }
+        },
+        "product_NMVirq": {
+          "type": "product",
+          "settings": {
+            "name": "3'",
+            "name_note": "",
+            "price": "$100.00",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_YVaycL",
+        "product_49fwXW",
+        "product_TKiaxi",
+        "product_NMVirq"
+      ],
+      "settings": {
+        "headline": "Snake Whips",
+        "subheadline": "Available in many different color combinations and can be made with a traditional fall hitch or an English Eye."
+      }
+    },
+    "price_list_MPQRYd": {
+      "type": "price-list",
+      "blocks": {
+        "product_pfWqaM": {
+          "type": "product",
+          "settings": {
+            "name": "5'",
+            "name_note": "",
+            "price": "$130.00",
+            "description": ""
+          }
+        },
+        "product_G4m8KC": {
+          "type": "product",
+          "settings": {
+            "name": "4'",
+            "name_note": "",
+            "price": "$110.00",
+            "description": ""
+          }
+        },
+        "product_DtJ8mP": {
+          "type": "product",
+          "settings": {
+            "name": "3'",
+            "name_note": "",
+            "price": "$90.00",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_pfWqaM",
+        "product_G4m8KC",
+        "product_DtJ8mP"
+      ],
+      "settings": {
+        "headline": "Mini-Whips",
+        "subheadline": "Available in many different color combinations. All mini-whips will have a 6\" spring steel handle."
+      }
+    },
+    "price_list_aPYQh6": {
+      "type": "price-list",
+      "blocks": {
+        "product_rErYix": {
+          "type": "product",
+          "settings": {
+            "name": "3'",
+            "name_note": "",
+            "price": "$90.00",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_rErYix"
+      ],
+      "settings": {
+        "headline": "Pocket Whip",
+        "subheadline": "Available in one of the following colors or a combination of black and one additional color (black, red, green, blue, orange or white)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "price_list_Rdm7CH",
+    "price_list_KnYaQH",
+    "price_list_MPQRYd",
+    "price_list_aPYQh6"
+  ]
+}

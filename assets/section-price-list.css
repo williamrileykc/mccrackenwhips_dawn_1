@@ -1,0 +1,61 @@
+
+.price-list {
+  margin-bottom: 1.5em;
+}
+
+.price-list h2,
+.price-list h3,
+.price-list p {
+  margin: 0;
+  padding: 0;
+}
+
+.price-list__head {
+  border-bottom: var(--media-border-width) solid rgba(var(--color-foreground), 0.25);
+  padding: 0 0 .5em 0;
+  margin: 0;
+  
+}
+
+.price-list__head h2 {
+  margin: 0 0 0.25em 0;
+}
+
+.price-list__subheadline {
+
+}
+
+.price-list__line {
+  padding: 0.5em 0 0 0;
+}
+
+h3.price-list__line__title {
+  grid-area: title;
+  margin: 0;
+}
+
+.price-list__line__title__note {
+  font-size: .8em;
+}
+
+.price-list__line__price {
+  grid-area: price;
+  text-transform: uppercase;
+}
+
+.price-list__line__description {
+  grid-area: text;
+}
+
+@media screen and (min-width: 750px) {
+  .price-list__line {
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    grid-template-areas:
+      "title price"
+      "text .";
+  }
+  .price-list__line__price { {
+    text-align: right;
+  }
+}

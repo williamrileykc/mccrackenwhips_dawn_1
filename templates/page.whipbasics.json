@@ -1,0 +1,93 @@
+{
+  "sections": {
+    "page_eGzqx8": {
+      "type": "page",
+      "settings": {
+        "page": "whip-information",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_image_3Ernee": {
+      "type": "rich-text-image",
+      "blocks": {
+        "heading_KJXmHt": {
+          "type": "heading",
+          "settings": {
+            "heading": "How do I measure a whip?",
+            "heading_size": "h1"
+          }
+        },
+        "text_WVzJp4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Different types of whips are measured differently. Sometimes the handle is included in the measurement and sometimes it is not. <\/p><p>The graphic below explains some of the more common types and how to determine their length.<\/p>"
+          }
+        },
+        "image_pPcRFg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/basics_whip-measurements.png"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KJXmHt",
+        "text_WVzJp4",
+        "image_pPcRFg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_image_QCrA3T": {
+      "type": "rich-text-image",
+      "blocks": {
+        "heading_URLCMV": {
+          "type": "heading",
+          "settings": {
+            "heading": "How is a whip made?",
+            "heading_size": "h1"
+          }
+        },
+        "text_hRUkbi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Most of my whips are made using a series of braided layers (bellies) wrapped around a central core and then covered in a decorative overlay. <\/p><p>The number of bellies depends upon the type of whip being made but a traditional bullwhip will have two bellies and a braided overlay over a weighted core. <\/p><p>This graphic should explain the anatomy of a whip.<\/p>"
+          }
+        },
+        "image_LtnNTe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Whip-Crosssection.png"
+          }
+        }
+      },
+      "block_order": [
+        "heading_URLCMV",
+        "text_hRUkbi",
+        "image_LtnNTe"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "page_eGzqx8",
+    "rich_text_image_3Ernee",
+    "rich_text_image_QCrA3T"
+  ]
+}

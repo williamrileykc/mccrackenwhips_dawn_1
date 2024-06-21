@@ -1,0 +1,26 @@
+<h1 class="page-width section-title {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+  <span>{{ section.settings.section_title }}</span>
+</h1>
+
+{% schema %}
+{
+  "name": "Section Title",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "label": "Section Title",
+      "id": "section_title"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Section Title"
+    }
+  ]
+}
+{% endschema %}

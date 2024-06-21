@@ -1,0 +1,184 @@
+{
+  "sections": {
+    "slideshow_M3q4eA": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_tmAaqV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9363.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_YhmAnb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9407.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_EEyb6U": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9383.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_yqfGgT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9401.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_m3cza7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9446.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_tmAaqV",
+        "slide_YhmAnb",
+        "slide_EEyb6U",
+        "slide_yqfGgT",
+        "slide_m3cza7"
+      ],
+      "custom_css": [
+        ".slideshow__text {display: none;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "collapsible_content_pnGnFh": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_aVMNUp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What length of whip is right for me?",
+            "icon": "none",
+            "row_content": "<p>This depends on what you will be using it for. If you're going to be limited by an enclosed space with low ceilings a short whip would seem to be the obvious choice while longer, heavier, whips might seem like they should only be for advanced practitioners.<br\/><br\/>Rather counter-intuitively longer whips are actually better for beginners. The additional length and weight mean the whip moves more slowly through its motions. When you swing it back it will take longer to produce a coil than a short whip which gives you time to feel the motion and prepare your next movement. Too long of a whip and it will limit the types of cracks you can perform.<\/p><p>This goes to say there are many factors involved in deciding  which length is best for you. <\/p><p>For information on how standard whips are measured visit the <a href=\"\/pages\/whip-information\" title=\"Whip Information\">Whip Information<\/a> page.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bPQVMU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I care for a paracord whip?",
+            "icon": "none",
+            "row_content": "<p>Paracord whips are incredibly easy to care for. If your whip gets dirty, use a damp, lint-free cloth. You can add a small amount of soft detergent or surface cleaner if it’s especially dirty. Avoid using anything abrasive or aggressively scrubbing as that can damage the fibers.<\/p><p>Never use your whip where it could come into contact with a rough surface. This will cause damage and start to wear down the strands. Avoid rough concrete or excessively dusty surfaces. Your best bet is to stand on soft grass or very smooth flooring.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6nFKkV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I store my whip?",
+            "icon": "none",
+            "row_content": "<p>Store your whip flat or hung on a hook. Whips have a natural curve, use that natural curve to coil it when storing. Unless otherwise requested all of our whip is waxed so avoid extreme heat during storage.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_63xtYz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I learn fancy whip cracking?",
+            "icon": "none",
+            "row_content": "<p>Start simple. Most complex routines you will see are actually a combination of multiple types of cracks combined with a little theatricality.<\/p><p>Never force your whip. All whips will have a natural curve, or bias, and that curve should be used when cracking your whip. Proper technique will achieve your results more than force. The more you refine your technique and learn the basics <\/p><p>I would recommend starting with the Cattleman's Crack. There are some great resources available to teach you cracks but I would recommend April Jennifer Choi's <a href=\"https:\/\/www.youtube.com\/@AprilJenniferChoi\" target=\"_blank\"><span style=\"text-decoration:underline\">YouTube <\/span><\/a>channel.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_aVMNUp",
+        "collapsible_row_bPQVMU",
+        "collapsible_row_6nFKkV",
+        "collapsible_row_63xtYz"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Whip FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "slideshow_M3q4eA",
+    "collapsible_content_pnGnFh"
+  ]
+}

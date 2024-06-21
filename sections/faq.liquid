@@ -1,0 +1,52 @@
+{{ 'section-faq.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+{% endstyle %}
+
+<div class="page-width faq">
+  <h2 class="h1">{{ section.settings.headline }}</h2>
+
+  {% for block in section.blocks %}
+    <div class="faq__row">
+      <input type="checkbox" id="question-{{ forloop.index }}" class="faq__toggle">
+      <label for="question-{{ forloop.index }}" class="faq__question">{{ block.settings.question }}</label>
+      <div class="faq__answer">{{ block.settings.answer }}</div>
+    </div>
+  {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "FAQ",
+  "settings": [
+    {
+      "type": "text",
+      "label": "headline",
+      "id": "headline"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "question",
+      "type": "question",
+      "settings": [
+        {
+          "type": "text",
+          "label": "question",
+          "id": "question"
+        },
+        {
+          "type": "text",
+          "label": "answer",
+          "id": "answer"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQ"
+    }
+  ]
+}
+{% endschema %}
