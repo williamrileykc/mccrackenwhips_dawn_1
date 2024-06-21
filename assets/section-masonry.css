@@ -1,10 +1,8 @@
 /* Import Google font - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 h1 {
   text-align: center;
@@ -42,7 +40,7 @@ h1 {
 }
 
 .gallery .images .img_desc {
-  /* display: none; */
+  display: none;
 }
 
 /* Image lightbox styling */
