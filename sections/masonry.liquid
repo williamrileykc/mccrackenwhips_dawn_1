@@ -12,17 +12,23 @@
         <i class="uil uil-camera"></i>
         <p class="preview_desc"></p>
       </div>
-      <div class="buttons"><i class="close-icon uil uil-times"></i></div>
+      <div class="buttons">
+        <i class="close-icon uil uil-times"></i>
+      </div>
     </header>
     <div class="preview-img">
-      <div class="img"><img src="" alt="preview-img"></div>
+      <div class="img"><img class="preview-img__image" src="" alt="preview-img"></div>
+      <div class="preview-img__nav hide">
+        <i class="preview-img__nav--prev"></i>
+        <i class="preview-img__nav--next"></i>
+      </div>
     </div>
   </div>
 </div>
 
 
 <div class="page-width masonry">
-  <h2 class="h1">{{  section.settings.headline }}</h2>
+  <h2 class="h1">{{ section.settings.headline }}</h2>
 
 
   <section class="gallery">

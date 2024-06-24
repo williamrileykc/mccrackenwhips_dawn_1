@@ -90,7 +90,8 @@ header .details span {
   font-size: 1.2rem;
   margin-left: 10px;
 }
-header .buttons i {
+header .buttons i,
+.preview-img__nav i {
   height: 40px;
   width: 40px;
   cursor: pointer;
@@ -108,17 +109,53 @@ header .buttons i:hover {
   background: #5f666d;
 }
 
-header .close-icon::before {
-  content: '\2715';
+.preview-img__nav.hide {
+  display: none;
+}
+
+.preview-img__nav i {
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  margin-left: 0;
+  opacity: 0.5;
+  animation: 0.25s opacity;
+}
+
+.preview-img__nav i:hover {
+  opacity: 0.75;
+  animation: 0.25s opacity;
+}
+
+i.preview-img__nav--prev {
+  left: 0;
+  transform: rotate(0.5turn);
+}
+
+i.preview-img__nav--next {
+  right: 0;
+}
+
+header .close-icon::before,
+.preview-img__nav i::before {
   display: block;
   font-style: normal;
-  font-weight: bold;;
+  font-weight: bold;
+}
+
+header .close-icon::before {
+  content: '\2715';
+}
+
+.preview-img__nav i::before {
+  content: '\276F';
 }
 
 .wrapper .preview-img {
   display: flex;
   justify-content: center;
   margin-top: 25px;
+  position: relative;
 }
 .preview-img .img {
   max-height: 65vh;
