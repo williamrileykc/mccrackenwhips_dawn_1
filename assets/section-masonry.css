@@ -180,4 +180,7 @@ header .close-icon::before {
     padding: 0 13px;
     margin-top: 20px;
   }
+  .gallery .images .img {
+      max-height: 400px;
+  } 
 }

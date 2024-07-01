@@ -123,7 +123,7 @@
           "settings": {
             "heading": "What length of whip is right for me?",
             "icon": "none",
-            "row_content": "<p>This depends on what you will be using it for. If you're going to be limited by an enclosed space with low ceilings a short whip would seem to be the obvious choice while longer, heavier, whips might seem like they should only be for advanced practitioners.<br\/><br\/>Rather counter-intuitively longer whips are actually better for beginners. The additional length and weight mean the whip moves more slowly through its motions. When you swing it back it will take longer to produce a coil than a short whip which gives you time to feel the motion and prepare your next movement. Too long of a whip and it will limit the types of cracks you can perform.<\/p><p>This goes to say there are many factors involved in deciding  which length is best for you. <\/p><p>For information on how standard whips are measured visit the <a href=\"\/pages\/whip-information\" title=\"Whip Information\">Whip Information<\/a> page.<\/p>",
+            "row_content": "<p>This depends on what you will be using it for. If you're going to be limited by an enclosed space with low ceilings a short whip would be a good. Longer, heavier, whips might seem like they should only be for advanced practitioners.<br\/><br\/>Rather counter-intuitively longer whips are actually better for beginners. The additional length and weight mean the whip moves more slowly through its motions. When you swing it back it will take longer to produce a coil than a short whip which gives you time to feel the motion and prepare your next movement. Too long of a whip and it will limit the types of cracks you can perform.<\/p><p>This goes to say there are many factors involved in deciding  which length is best for you. <\/p><p>For information on how standard whips are measured visit the <a href=\"\/pages\/whip-information\" title=\"Whip Information\">Whip Information<\/a> page.<\/p>",
             "page": ""
           }
         },
@@ -175,10 +175,17 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "instagram_DFTaA9": {
+      "type": "instagram",
+      "settings": {
+        "instagram_handle": "mccrackenwhips"
+      }
     }
   },
   "order": [
     "slideshow_M3q4eA",
-    "collapsible_content_pnGnFh"
+    "collapsible_content_pnGnFh",
+    "instagram_DFTaA9"
   ]
 }
