@@ -116,12 +116,20 @@
           id="ContactForm-body"
           class="text-area field__input"
           name="contact[{{ 'templates.contact.form.comment' | t }}]"
-          placeholder="{{ 'templates.contact.form.comment' | t }}"
+          {% if section.settings.placeholder_message != blank %}
+            placeholder="{{ section.settings.placeholder_message }}"
+          {% else %}
+            placeholder="{{ 'templates.contact.form.comment' | t }}"
+          {% endif %}
         >
           {{- form.body -}}
         </textarea>
         <label class="form__label field__label" for="ContactForm-body">
-          {{- 'templates.contact.form.comment' | t -}}
+          {% if section.settings.placeholder_message != blank %}
+            {{ section.settings.placeholder_message }}
+          {% else %}
+            {{- 'templates.contact.form.comment' | t -}}
+          {% endif %}
         </label>
       </div>
       <div class="contact__button">
@@ -177,6 +185,16 @@
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "text",
+      "label": "Placeholder Message",
+      "id": "placeholder_message"
+    },
+    {
+      "type": "text",
+      "label": "Success Message",
+      "id": "success_message"
     },
     {
       "type": "range",
